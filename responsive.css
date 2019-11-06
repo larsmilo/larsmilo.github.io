@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family:'devroye';
+  src: url(Fonts/Devroye/'devroye.ttf');
+}
+
+
+body{
+  margin:0;
+  padding:0;
+}
+
+header{
+  width:100%;
+
+
+}
+
+header h1{
+  font-family:'devroye';
+  font-size:40px;
+  font-style: italic;
+  color:black;
+  margin-left:5%;
+  float:left;
+
+}
+header #hamburger{
+  float:right;
+  margin-right:5%;
+  width:15%;
+  height:45px;
+  margin-top:38px;
+}
+header #hamburger .bar{
+  max-width:100%;
+  height:7px;
+  background-color: black;
+  margin-bottom:5px;
+}
+header #hamburger .bottom{
+
+  margin-bottom:0px;
+}
+
+#first, #second, #third{
+  display:block;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+figure img{
+  max-width:100%;
+  margin:0;
+  padding:0;
+  display:block;
+}
+section{
+  width:100%;
+  margin:0;
+  padding:0;
+  display:block;
+}
+section article{
+  width:100%;
+  margin:0;
+  padding:0;
+  display:block;
+}
+section article h2{
+  font-family:'devroye';
+  color:red;
+  font-size: 17px;
+  text-align: center;
+  font-weight:normal;
+  font-variant: normal;
+  letter-spacing: 1px;
+}
+section article h1{
+  font-family:'devroye';
+  font-size: 24px;
+  text-align: center;
+  margin-top:2px;
+  margin-bottom:2px;
+  font-weight: normal;
+}
+section article h6{
+  font-family:Arial;
+  color:red;
+  font-size: 12px;
+  text-align: center;
+  font-weight:normal;
+  font-variant: normal;
+  letter-spacing: 1px;
+  margin-bottom:50px;
+}
+section #subscription{
+  width:80%;
+  outline:solid 10px #fbf2ee;
+  height:200px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:30px;
+}
+section #subscription h1{
+
+}
+section article #name, section article #email{
+  width:80%;
+  outline:solid 1px #eee;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  height:40px;
+}
+section article #name h6, section article #email h6{
+  height:40px;
+  line-height:40px;
+  font-family:'devroye';
+}
