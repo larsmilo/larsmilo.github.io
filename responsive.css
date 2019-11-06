@@ -98,7 +98,6 @@ section article h6{
 section #subscription{
   width:80%;
   outline:solid 10px #fbf2ee;
-  height:200px;
   margin-right:auto;
   margin-left:auto;
   padding-top:30px;
@@ -106,7 +105,7 @@ section #subscription{
 section #subscription h1{
 
 }
-section article #name, section article #email{
+section article #name, section article #email, section article #subscribe{
   width:80%;
   outline:solid 1px #eee;
   margin-left:auto;
@@ -114,8 +113,18 @@ section article #name, section article #email{
   margin-top:20px;
   height:40px;
 }
-section article #name h6, section article #email h6{
+section article #name h6, section article #email h6, {
   height:40px;
   line-height:40px;
   font-family:'devroye';
+}
+section article #subscribe{
+  background-color: red;
+
+}
+section article #subscribe h2{
+    color:white;
+    height:40px;
+    line-height: 40px;
+    letter-spacing: 0px;
 }
